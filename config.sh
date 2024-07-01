@@ -5,3 +5,5 @@ sudo yum install -y docker-ce docker-ce-cli containerd.io
 sudo systemctl start docker
 sudo systemctl enable docker
 
+#BBR
+curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/install_kernel.sh && chmod +x ./install_kernel.sh && ./install_kernel.sh
